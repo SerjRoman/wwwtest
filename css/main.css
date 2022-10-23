@@ -1,0 +1,71 @@
+/* .main-text {
+    color: aqua;
+}
+#text-in-p {
+    color: red;
+}
+#bold-text-in-p {
+    color: saddlebrown;
+}
+div b ,div i {
+    color:green;
+} */
+p {
+    text-decoration: line-through;
+}
+.main-link {
+    color: blue;
+    text-decoration: none;
+}
+.main-link:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#Button {
+    color:crimson
+}
+#Button:hover {
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#Button:active {
+    text-decoration: line-through;
+}
+.main-link:visited {
+    text-decoration: line-through;
+    color: gray;
+}
+#input-text {
+    color: blue;
+}
+#input-text:focus {
+    color: red;
+}
+#Button:focus {
+    color:white
+}
+.text-p:not(:empty){
+    color:blue;
+}
+p.text-p:empty::after{
+    content: attr(title);
+}
+#some-id::before{
+    content: '1231223123';
+}
+#some-id::first-letter {
+    color: aqua;
+}
+#some-id {
+    text-decoration: none;
+}
+#some-id::first-line {
+    color: red;
+}
+
+#some-id::after{
+    content: '123';
+    color: red;
+}
