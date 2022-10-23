@@ -10,7 +10,7 @@
 div b ,div i {
     color:green;
 } */
-p {
+p:first-of-type {
     text-decoration: line-through;
 }
 .main-link {
